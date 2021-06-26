@@ -1,0 +1,27 @@
+1. how to set the value of necessities based on a real dialogue?
+
+solution: 
+identify words, by parsing for example, indicating necessities like "really" (20), "like" (10), "please" (15), "absolutely" (+-30)
+"mustn't" (-30), "whatever" (0). (preference(_,-30))
+-------------
+but when analyzing dialogue on the fly:
+the causal relation is hard to identify
+as well as initial_situation() and action()
+
+
+In short, combine parsing and argumentation.
+
+@Qingjie : there is no "state of the art" on these topics 
+(research on dialog is split among many avenues; you may have a look at the SIGDIAL conferences).
+
+@Qingjie : necessity corresponds to multi-valued logics. 
+It unifies beliefs and desires. Look at the BDI litterature if interested.
+(Belief-Desire-Intentions
+https://en.wikipedia.org/wiki/Belief%E2%80%93desire%E2%80%93intention_software_model)
+
+Perception of Probability Words：
+https://waf.cs.illinois.edu/visualizations/Perception-of-Probability-Words/?fbclid=IwAR22jd-9mIC9CyZo6NBqUZAiJEzVqrPFws4w13Bl5uF7euoZfBM6HpVd684
+
+dialogue:
+1. solve one problem
+2. may have several subproblems, ranked by the preference
