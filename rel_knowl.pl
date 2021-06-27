@@ -60,4 +60,4 @@ Interface with the domain knowledge
 	% :- consult('energy.pl').
 	%:- consult('rel_projector.pl').
 	% :- consult('rel_pollock.pl').
-	:- consult('knowledge_base.pl').
+	:- consult('KB_go_to_school.pl').
