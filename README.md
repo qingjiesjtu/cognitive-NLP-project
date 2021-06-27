@@ -16,4 +16,6 @@ Mom: Ok, let your dad drive you there!
 * To run the codes, just run main.pl and follow the instructions to set necessities on the fly.
 
 * The program will provide the solutions of each conflict and it will finally give “dad_drives” as the best solution to attend an exam in the heavy rain. 
+
+* This repository includes also a 6-pages report.
  
